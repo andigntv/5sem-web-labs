@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="refactor: for pages">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="refactor: README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.png" beforeDir="false" afterPath="$PROJECT_DIR$/layout.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lab-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab-1",
+    "git-widget-placeholder": "lab-2",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ignat\WebstormProjects\5sem-web-labs\images" />
       <recent name="C:\Users\ignat\WebstormProjects\5sem-web-labs\html" />
     </key>
   </component>
@@ -74,7 +81,7 @@
       <workItem from="1696421028872" duration="16000" />
       <workItem from="1696421053132" duration="6387000" />
       <workItem from="1696519099874" duration="642000" />
-      <workItem from="1696573717342" duration="3709000" />
+      <workItem from="1696573717342" duration="33444000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -140,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696592468709</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: README.md">
+      <option name="closed" value="true" />
+      <created>1696593105540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696593105540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +181,7 @@
     <MESSAGE value="refactor: style" />
     <MESSAGE value=".idea changes" />
     <MESSAGE value="refactor: for pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: for pages" />
+    <MESSAGE value="refactor: README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: README.md" />
   </component>
 </project>

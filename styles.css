@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --border_width: 8px;
+    --border_color: #37C5FF;
+    --border_radius: 20px;
+    --box_shadow: 2px 2px 16px #808080;
+    --box_background: #FAFAFA;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    font-size: 18px;
+    background-color: #FAFAFA;
+}
+
+header {
+    background-color: #37C5FF;
+    font-size: 30px;
+    display: flex;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    height: 56px;
+    background-color: #596E80;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    color: #FAFAFA;
+    text-shadow: 1px 1px 4px #222222;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.profile {
+    text-decoration: None;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1060px;
+    font-size: 24px;
+    color: #FAFAFA;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+    padding: 5px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #808080;
+}
+
+.info {
+    text-decoration: None;
+    margin-right: 20px;;
+    font-size: 24px;
+    color: #D1D1D1;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+}
+
+.actions_and_calendar {
+    width: 1000px;
+    height: 520px;
+}
+
+.users_info {
+    box-sizing: border-box;
+    width: 700px;
+    height: 650px;
+}
+
+.all_tasks_and_stats{
+    display: flex;
+    width: auto;
+    height: 500px;
+    margin: 0 0 20px 0;
+}
+
+.deadlines_and_stats {
+    width: auto;
+    height: 500px;
+    margin: 0 20px 0 0;
+}
+
+.deadlines_container{
+    height: 240px;
+    width: 300px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    border-width: var(--border_width);
+    border-style: solid;
+    border-color: var(--border_color);
+    border-radius: var(--border_radius);
+    box-shadow: var(--box_shadow);
+    background: var(--box_background);
+}
+
+.deadlines {
+    text-decoration: None;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statistics_container {
+    height: 240px;
+    width: 300px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    border-width: var(--border_width);
+    border-style: solid;
+    border-color: var(--border_color);
+    border-radius: var(--border_radius);
+    box-shadow: var(--box_shadow);
+    background: var(--box_background);
+}
+
+.statistics {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statistics_img {
+    max-width: 180px;
+}
+
+.routines_container {
+    height: 500px;
+    width: 300px;
+    margin: 0 0 20px 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-width: var(--border_width);
+    border-style: solid;
+    border-color: var(--border_color);
+    border-radius: var(--border_radius);
+    box-shadow: var(--box_shadow);
+    background: var(--box_background);
+}
+
+.routines {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote_container {
+    width: 640px;
+    height: 150px;
+    box-sizing: border-box;
+    border-width: var(--border_width);
+    border-style: solid;
+    border-color: var(--border_color);
+    border-radius: var(--border_radius);
+    box-shadow: 2px 2px 4px #808080;
+    background: var(--box_background);
+}
+
+.quote {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.quote_title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.calendar_img {
+    margin-left: 50px;
+    max-width: 800px;
+}
+
+.actions {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.action_button {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #37C5FF;
+    text-shadow: 1px 1px 2px #000000;
+    box-shadow: 2px 2px 4px #808080;
+    width: 140px;
+    height: 36px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #597980;
+    padding: 5px 0;
+    margin: 0 20px 0 0;
+}
