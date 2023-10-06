@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="refactor: style" />
+    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment=".idea changes">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +74,7 @@
       <workItem from="1696421028872" duration="16000" />
       <workItem from="1696421053132" duration="6387000" />
       <workItem from="1696519099874" duration="642000" />
-      <workItem from="1696573717342" duration="2592000" />
+      <workItem from="1696573717342" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696575733214</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".idea changes">
+      <option name="closed" value="true" />
+      <created>1696591940583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696591940583</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="feat: lab-1 done" />
     <MESSAGE value="refactor" />
     <MESSAGE value="refactor: style" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: style" />
+    <MESSAGE value=".idea changes" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea changes" />
   </component>
 </project>
