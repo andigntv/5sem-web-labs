@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="feat: lab-2 done" />
+    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="refactor: new stats">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +76,7 @@
       <workItem from="1696421028872" duration="16000" />
       <workItem from="1696421053132" duration="6387000" />
       <workItem from="1696519099874" duration="642000" />
-      <workItem from="1696573717342" duration="33754000" />
+      <workItem from="1696573717342" duration="36081000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -155,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696635516147</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: new stats">
+      <option name="closed" value="true" />
+      <created>1696635836860</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696635836860</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor: new stats">
+      <option name="closed" value="true" />
+      <created>1696636018521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696636018521</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +202,7 @@
     <MESSAGE value="refactor: for pages" />
     <MESSAGE value="refactor: README.md" />
     <MESSAGE value="feat: lab-2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lab-2 done" />
+    <MESSAGE value="refactor: new stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: new stats" />
   </component>
 </project>
