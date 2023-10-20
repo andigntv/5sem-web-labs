@@ -18,12 +18,14 @@ body {
 }
 
 header {
+    justify-content: space-between;
     background-color: #37C5FF;
     font-size: 30px;
     display: flex;
 }
 
-main {
+.main {
+    justify-content: space-between;
     display: flex;
     margin-top: 20px;
 }
@@ -32,7 +34,9 @@ footer {
     text-align: center;
     margin-top: 100px;
     height: 56px;
+    width: 100%;
     background-color: #596E80;
+    position: absolute;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -47,10 +51,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-shadow: 1px 1px 4px #222222;
     margin-top: auto;
     margin-bottom: auto;
+    /*width: 600px;*/
 }
 
 .profile {
-    margin-left: 940px;
     text-decoration: None;
     margin-top: auto;
     margin-bottom: auto;
@@ -67,7 +71,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .info {
     text-decoration: None;
-    margin-right: 20px;;
     font-size: 24px;
     color: #D1D1D1;
     font-weight: bold;
@@ -246,4 +249,35 @@ h1, h2, h3, h4, h5, h6, p, a {
     border-color: #597980;
     padding: 5px 0;
     margin: 0 0 0 20px;
+}
+
+.table_container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #DDDDDD;
 }

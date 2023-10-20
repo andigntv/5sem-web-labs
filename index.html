@@ -11,69 +11,99 @@
     <div class="title">
         <h1>Daily Organizer</h1>
     </div>
-        <a class="profile" href="#">My Profile</a>
+    <a class="profile" href="#">My Profile</a>
 </header>
 <main>
-    <div class="actions_and_calendar">
-        <nav class="actions">
-            <h3>
-                <a class="action_button" href="#">New Routine</a>
-                <a class="action_button" href="#">New Task</a>
-                <a class="action_button" href="#">New Goal</a>
-                <a class="action_button" href="#">New Reminder</a>
-                <a class="action_button" href="#">New Note</a>
-            </h3>
-        </nav>
-        <div class="calendar">
-            <img class="calendar_img" src="images/calendar.png" alt="calendar">
+    <div class="main">
+        <div class="actions_and_calendar">
+            <nav class="actions">
+                <h3>
+                    <a class="action_button" href="#">New Routine</a>
+                    <a class="action_button" href="#">New Task</a>
+                    <a class="action_button" href="#">New Goal</a>
+                    <a class="action_button" href="#">New Reminder</a>
+                    <a class="action_button" href="#">New Note</a>
+                </h3>
+            </nav>
+            <div class="calendar">
+                <img class="calendar_img" src="images/calendar.png" alt="calendar">
+            </div>
         </div>
-    </div>
-    <div class="users_info">
-        <div class="all_tasks_and_stats">
-            <div class="deadlines_and_stats">
-                <div class="deadlines_container">
-                    <div class="deadlines">
-                        <h2 class="deadlines_title">Deadlines</h2>
-                        <ul class="deadlines_list">
-                            <li><time datetime="2023-12-10">10.12 -</time> Сделать проект</li>
-                            <li><time datetime="2022-02-04">04.02 -</time> Отремонтировать автомобиль</li>
-                            <li><time datetime="2022-02-25">25.02 -</time> Купить билеты на концерт</li>
+        <div class="users_info">
+            <div class="all_tasks_and_stats">
+                <div class="deadlines_and_stats">
+                    <div class="deadlines_container">
+                        <div class="deadlines">
+                            <h2 class="deadlines_title">Deadlines</h2>
+                            <ul class="deadlines_list">
+                                <li><time datetime="2023-12-10">10.12 -</time> Сделать проект</li>
+                                <li><time datetime="2022-02-04">04.02 -</time> Отремонтировать автомобиль</li>
+                                <li><time datetime="2022-02-25">25.02 -</time> Купить билеты на концерт</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="statistics_container">
+                        <div class="statistics">
+                            <h2 class="statistics_title">Statistics</h2>
+                            <img class="statistics_img" src="images/stats.png" alt="stats">
+                        </div>
+                    </div>
+                </div>
+                <div class="routines_container">
+                    <div class="routines">
+                        <h2 class="routines_title">Routine</h2>
+                        <ul class="routines_list">
+                            <li><span class="time">8:00</span> - Покупка продуктов</li>
+                            <li><span class="time">10:00</span> - Поход в зал</li>
+                            <li><span class="time">12:00</span> - Переписка с клиентами</li>
+                            <li><span class="time">14:00</span> - Подготовка отчета</li>
+                            <li><span class="time">16:00</span> - Прогулка на свежем воздухе</li>
+                            <li><span class="time">18:00</span> - Запись видеоурока</li>
+                            <li><span class="time">22:00</span> - Чтение книги</li>
+                            <li><span class="time">23:00</span> - Подготовка к презентации</li>
+                            <li><span class="time">00:00</span> - Просмотр фильма</li>
                         </ul>
                     </div>
                 </div>
-                <div class="statistics_container">
-                    <div class="statistics">
-                        <h2 class="statistics_title">Statistics</h2>
-                        <img class="statistics_img" src="images/stats.png" alt="stats">
-                    </div>
-                </div>
             </div>
-            <div class="routines_container">
-                <div class="routines">
-                    <h2 class="routines_title">Routine</h2>
-                    <ul class="routines_list">
-                        <li><span class="time">8:00</span> - Покупка продуктов</li>
-                        <li><span class="time">10:00</span> - Поход в зал</li>
-                        <li><span class="time">12:00</span> - Переписка с клиентами</li>
-                        <li><span class="time">14:00</span> - Подготовка отчета</li>
-                        <li><span class="time">16:00</span> - Прогулка на свежем воздухе</li>
-                        <li><span class="time">18:00</span> - Запись видеоурока</li>
-                        <li><span class="time">22:00</span> - Чтение книги</li>
-                        <li><span class="time">23:00</span> - Подготовка к презентации</li>
-                        <li><span class="time">00:00</span> - Просмотр фильма</li>
-                    </ul>
+            <div class="quote_container">
+                <div class="quote">
+                    <h2 class="quote_title">Quote of a day</h2>
+                    <p>
+                        <q>Discipline is choosing between what you want now, and what you want most.</q>
+                        &mdash; <cite>Abraham Lincoln</cite>
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="quote_container">
-            <div class="quote">
-                <h2 class="quote_title">Quote of a day</h2>
-                <p>
-                    <q>Discipline is choosing between what you want now, and what you want most.</q>
-                    &mdash; <cite>Abraham Lincoln</cite>
-                </p>
-            </div>
-        </div>
+    </div>
+    <div class="table_container">
+        <table>
+            <thead>
+            <tr>
+                <th>Накоплено</th>
+                <th>Цель</th>
+                <th>Процент</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10000</td>
+                <td>100000</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>4000</td>
+                <td>5000</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>1300000</td>
+                <td>5200000</td>
+                <td>25%</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </main>
 <footer>
