@@ -8,12 +8,82 @@
     --box_background: #FAFAFA;
 }
 
+@media screen and (max-width: 1450px) {
+
+    footer {
+        width: 102.5%;
+        margin-top: 24%;
+    }
+
+    header {
+        width: 104%;
+    }
+
+    body {
+        font-size: 32px;
+    }
+
+    .calendar {
+        display: none;
+    }
+
+    .action_button {
+        font-size: 3vw;
+        width: 300px;
+        height: 100px;
+        margin: 2vw 2vw 0 0;
+    }
+
+    .routines_list {
+        font-size: 16px;
+    }
+
+    .deadlines_list {
+        font-size: 16px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    footer {
+        margin-top: 100px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .action_button {
+        width: 130px;
+        height: 36px;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+
+    .routines_list {
+        font-size: 16px;
+    }
+
+    .deadlines_list {
+        font-size: 16px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     text-shadow: 1px 1px 1px #808080;
     padding: 0;
-    font-size: 20px;
     background-color: #FAFAFA;
 }
 
@@ -32,9 +102,7 @@ header {
 
 footer {
     text-align: center;
-    margin-top: 100px;
     height: 56px;
-    width: 100%;
     background-color: #596E80;
     position: absolute;
 }
@@ -132,7 +200,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 .deadlines_list {
     text-align: left;
     width: 200px;
-    font-size: 16px;
 }
 
 .statistics_container {
@@ -194,7 +261,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 .routines_list {
     text-align: left;
     width: 200px;
-    font-size: 16px;
 }
 
 .quote_container {
@@ -213,7 +279,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
 }
 
 .quote_title {
@@ -235,20 +300,17 @@ h1, h2, h3, h4, h5, h6, p, a {
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
-    font-size: 16px;
     text-decoration: none;
     color: white;
     background-color: #37C5FF;
     text-shadow: 1px 1px 2px #000000;
     box-shadow: 2px 2px 4px #808080;
-    width: 130px;
-    height: 36px;
     border-radius: 4px;
     border-width: 1px;
     border-style: solid;
     border-color: #597980;
     padding: 5px 0;
-    margin: 0 0 0 20px;
+
 }
 
 .table_container {
