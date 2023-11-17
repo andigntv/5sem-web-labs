@@ -8,15 +8,22 @@
     --box_background: #FAFAFA;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1000px) {
+    .profile_content {
+        margin-bottom: 57%;
+    }
+
+    .tasks_frequency_photo_img {
+        display: none;
+    }
 
     footer {
+        margin-top: 18%;
         width: 102.5%;
-        margin-top: 24%;
     }
 
     header {
-        width: 104%;
+        width: 102.5%;
     }
 
     body {
@@ -48,6 +55,10 @@
 }
 
 @media screen and (min-width: 1450px) {
+    .profile_content {
+        margin-bottom: 12.5%;
+    }
+
     footer {
         margin-top: 100px;
     }
@@ -81,10 +92,13 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 1px 1px 1px #808080;
     padding: 0;
     background-color: #FAFAFA;
+    min-height: calc(100vh - 80px);
 }
 
 header {
@@ -94,17 +108,17 @@ header {
     display: flex;
 }
 
-.main {
+.content {
     justify-content: space-between;
     display: flex;
     margin-top: 20px;
+    min-height: 100%;
 }
 
 footer {
     text-align: center;
-    height: 56px;
+    height: 5%;
     background-color: #596E80;
-    position: absolute;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -137,6 +151,26 @@ h1, h2, h3, h4, h5, h6, p, a {
     box-shadow: 2px 2px 8px #808080;
 }
 
+.profile:hover {
+    background-color: #17A5EF;
+}
+
+.profile_profile {
+    text-decoration: None;
+    background-color: #17A5EF;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    color: #CACACA;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222222;
+    padding: 5px;
+    border-style: solid;
+    border-color: #CACACA;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #808080;
+}
+
 .info {
     text-decoration: None;
     font-size: 24px;
@@ -156,7 +190,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     height: 650px;
 }
 
-.all_tasks_and_stats{
+.all_tasks_and_stats {
     display: flex;
     width: auto;
     height: 500px;
@@ -169,7 +203,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin: 0 20px 0 0;
 }
 
-.deadlines_container{
+.deadlines_container {
     height: 240px;
     width: 300px;
     margin: 0 0 20px 0;
@@ -313,6 +347,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 }
 
+.action_button:hover {
+    background-color: #17A5EF;
+}
+
 .table_container {
     margin-top: 40px;
     display: grid;
@@ -342,4 +380,37 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
     background-color: #DDDDDD;
+}
+
+.profile_content {
+    display: flex;
+    min-height: 100%;
+}
+
+.profile_info_container {
+    margin-left: 100px;
+}
+
+.profile_name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-shadow: none;
+}
+
+.profile_email {
+    font-size: 20px;
+    margin-left: 20px;
+    text-shadow: none;
+}
+
+.profile_photo_img {
+    max-width: 20vh;
+    margin: 20px 0 20px 20px;
+}
+
+.tasks_frequency_photo_img {
+    max-width: 80%;
+    margin: 5% 0 0 8%;
 }
