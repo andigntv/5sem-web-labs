@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конструктор задач</title>
+    <script src="scripts/form_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="title">
+        <h1>Daily Organizer</h1>
+    </div>
+    <a class="profile" href="profile.html">My Profile</a>
+</header>
+<main>
+    <h2>New Task</h2>
+    <form id="taskForm" onsubmit="generateTask(event)">
+        <label for="taskName">Название задачи:</label>
+        <input type="text" id="taskName" required style="margin-top: 24px">
+        <br>
+        <label for="taskPriority">Приоритет:</label>
+        <select id="taskPriority" required style="margin-top: 24px">
+            <option value="Высокий">Высокий</option>
+            <option value="Средний">Средний</option>
+            <option value="Низкий">Низкий</option>
+        </select>
+        <br>
+        <label for="taskDeadline">Дедлайн:</label>
+        <input type="date" id="taskDeadline" required style="margin-top: 24px">
+        <br>
+            <input type="submit" value="Add task" style="margin-top: 24px">
+    </form>
+
+    <div id="resultsContainer" style="margin-top: 5vh"></div>
+</main>
+</body>
+</html>
