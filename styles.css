@@ -155,21 +155,21 @@ h1, h2, h3, h4, h5, h6, p, a {
     background-color: #17A5EF;
 }
 
-.profile_profile {
-    text-decoration: None;
-    background-color: #17A5EF;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 24px;
-    color: #CACACA;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222222;
-    padding: 5px;
-    border-style: solid;
-    border-color: #CACACA;
-    border-radius: 5px;
-    box-shadow: 2px 2px 8px #808080;
-}
+/*.profile_profile {*/
+/*    text-decoration: None;*/
+/*    background-color: #17A5EF;*/
+/*    margin-top: auto;*/
+/*    margin-bottom: auto;*/
+/*    font-size: 24px;*/
+/*    color: #CACACA;*/
+/*    font-weight: bold;*/
+/*    text-shadow: 1px 1px 1px #222222;*/
+/*    padding: 5px;*/
+/*    border-style: solid;*/
+/*    border-color: #CACACA;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 2px 2px 8px #808080;*/
+/*}*/
 
 .info {
     text-decoration: None;
