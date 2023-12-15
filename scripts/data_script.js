@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const avatarElement = document.getElementById('user-avatar');
             avatarElement.src = avatar.url;
         })
-        .catch(error => {
+        .catch(() =>{
             preloader.style.display = 'none';
             const errorElement = document.getElementById('error-message');
             errorElement.textContent = '⚠️ Что-то пошло не так';
