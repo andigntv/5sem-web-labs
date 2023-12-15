@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1000px) {
     .profile_content {
-        margin-bottom: 57%;
+        margin-bottom: 51%;
     }
 
     .tasks_frequency_photo_img {
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 1450px) {
     .profile_content {
-        margin-bottom: 15%;
+        margin-bottom: 5.7%;
     }
 
     footer {
@@ -383,7 +383,6 @@ tbody tr:nth-child(odd) {
 }
 
 .profile_content {
-    display: flex;
     min-height: 100%;
 }
 
@@ -413,4 +412,22 @@ tbody tr:nth-child(odd) {
 .tasks_frequency_photo_img {
     max-width: 80%;
     margin: 5% 0 0 8%;
+}
+
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+/* Стили для сообщения об ошибке */
+.error-message {
+    color: red;
+    margin: 20px;
 }

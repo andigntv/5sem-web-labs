@@ -14,27 +14,35 @@
 </header>
 <body>
     <div class="profile_content">
-        <div class="profile_info">
-            <div class="profile_photo">
-                <img class="profile_photo_img" src="images/profile_photo.png" alt="profile_photo">
-            </div>
-            <div class="profile_name">
-                <h2>Firstname Surname</h2>
-            </div>
-            <div class="profile_email">
-                <h2>example@mail.com</h2>
-            </div>
+        <h1>Профиль пользователя</h1>
+        <div>
+            <img id="user-avatar" src="" alt="User Avatar" style="width: 15vw">
         </div>
-        <div class="tasks_frequency">
-            <div class="tasks_frequency_photo">
-                <img class="tasks_frequency_photo_img" src="images/tasks_frequency.png" alt="tasks_frequency">
-            </div>
+
+        <div>
+            <strong>Name:</strong> <span id="user-name"></span>
         </div>
+        <div>
+            <strong>Username: </strong> <span id="user-username"></span>
+        </div>
+        <div>
+            <strong>Email:</strong> <span id="user-email"></span>
+        </div>
+        <div>
+            <strong>Phone:</strong> <span id="user-phone"></span>
+        </div>
+        <div>
+            <strong>Id:</strong> <span id="user-id"></span>
+        </div>
+        <div id="preloader" class="preloader">
+            <img src="images/loading-thumb.gif" alt="Preloader Animation" style="width: 50px">
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+
+        <script src="scripts/profile_script.js"></script>
+        <script src="scripts/data_script.js"></script>
     </div>
-    <div class="random_number">
-        <script src="scripts/common_script.js"></script>
-    </div>
-    <script src="scripts/profile_script.js"></script>
 </body>
 <footer>
     <nav class="info_buttons">

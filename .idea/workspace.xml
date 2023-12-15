@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="done: lab-4">
-      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/form_script.js" afterDir="false" />
+    <list default="true" id="fe17a553-3d15-4efe-99ef-765fa1545474" name="Changes" comment="done: lab-5">
+      <change afterPath="$PROJECT_DIR$/images/loading-thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/data_script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +52,20 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "lab-5",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ignat/WebstormProjects/5sem-web-labs/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ignat\WebstormProjects\5sem-web-labs\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ignat\WebstormProjects\5sem-web-labs\images" />
       <recent name="C:\Users\ignat\WebstormProjects\5sem-web-labs\html" />
@@ -86,7 +93,11 @@
       <workItem from="1700227862688" duration="40000" />
       <workItem from="1700227966335" duration="10977000" />
       <workItem from="1700432349589" duration="16000" />
-      <workItem from="1701476114094" duration="2546000" />
+      <workItem from="1701476114094" duration="3311000" />
+      <workItem from="1701741453038" duration="29000" />
+      <workItem from="1702656166082" duration="444000" />
+      <workItem from="1702656691994" duration="80000" />
+      <workItem from="1702656780733" duration="3672000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -248,7 +259,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701476892777</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="done: lab-5">
+      <option name="closed" value="true" />
+      <created>1701478967680</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1701478967680</updated>
+    </task>
+    <task id="LOCAL-00022" summary="done: lab-5">
+      <option name="closed" value="true" />
+      <created>1701478989410</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701478989410</updated>
+    </task>
+    <task id="LOCAL-00023" summary="done: lab-5">
+      <option name="closed" value="true" />
+      <created>1701479027734</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701479027734</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +314,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="done: lab-3" />
     <MESSAGE value="done: lab-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="done: lab-4" />
+    <MESSAGE value="done: lab-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="done: lab-5" />
   </component>
 </project>
