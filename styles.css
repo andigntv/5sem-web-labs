@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 1450px) {
     .profile_content {
-        margin-bottom: 7%;
+        /*margin-bottom: 1%;*/
     }
 
     footer {
@@ -388,6 +388,7 @@ tbody tr:nth-child(odd) {
 
 .profile_info_container {
     margin-left: 100px;
+    display: flex;
 }
 
 .profile_name {
@@ -426,8 +427,19 @@ tbody tr:nth-child(odd) {
     border-radius: 50%;
 }
 
-/* Стили для сообщения об ошибке */
 .error-message {
     color: red;
     margin: 20px;
+}
+
+.slider-images {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.slider-container {
+    max-width: 200px;
+    max-height: 250px;
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -5,6 +5,9 @@
     <meta name="description" content="Profile">
     <title>Daily Organizer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <header>
     <div class="title">
@@ -37,11 +40,20 @@
         <div id="preloader" class="preloader">
             <img src="images/loading_thumb.gif" alt="Preloader Animation" style="width: 50px">
         </div>
-
         <div id="error-message" class="error-message"></div>
+
+        <div class="slider-container">
+            <div class="slider single-item">
+                <div><img class="slider-images" src="images/stats.png" alt="image1"></div>
+                <div><img class="slider-images" src="images/stats.png" alt="image1"></div>
+                <div><img class="slider-images" src="images/stats.png" alt="image1"></div>
+            </div>
+        </div>
 
         <script src="scripts/profile_script.js"></script>
         <script src="scripts/data_script.js"></script>
+        <script src="slick/slick.min.js"></script>
+        <script src="scripts/slider.js"></script>
     </div>
 </body>
 <footer>
